@@ -4,8 +4,8 @@ Bu proje, Qwen2.5-Coder-1.5B-Instruct modelini LoRA (Low-Rank Adaptation) tekni�
 
 ## Modeller
 Eğitilen modeller Hugging Face üzerine yüklenmiştir:
-* **DEEP Model:** [Buraya Hugging Face DEEP Model Linkini Yapıştır]
-* **DIVERSE Model:** [Buraya Hugging Face DIVERSE Model Linkini Yapıştır]
+* **DEEP Model:** [https://huggingface.co/datasets/Naholav/CodeGen-Deep-5K]
+* **DIVERSE Model:** [https://huggingface.co/datasets/Naholav/CodeGen-Diverse-5K]
 
 ## Eğitim Detayları
 Bu projede iki farklı veri seti kullanılmıştır:
@@ -19,5 +19,5 @@ Bu projede iki farklı veri seti kullanılmıştır:
 * **Epochs:** 1
 
 ## Dosyalar
-* `LoRa.ipynb`: Eğitim için kullanılan Python kodu (Training Script).
-* `*_logs.txt`: Eğitim sırasındaki loss değerlerini gösteren kayıtlar.
+* `LoRA_Training_Project.ipynb`: Eğitim için kullanılan Python kodu (Training Script).
+* `deep_training_logs.txt`, `diverse_training_logs.txt`: Eğitim sırasındaki loss değerlerini gösteren kayıtlar.
